@@ -13,4 +13,18 @@
     <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     <!-- Customize your theme here. -->
   </style>
+
+  <style name="AppTheme" parent="Theme.SunFlower" />
+
+  <!-- 同学们注意： 这里是清单文件 MAIN 启动点 的样式 -->
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+    <item name="android:displayOptions">homeAsUp</item>
+  </style>
 </resources>
